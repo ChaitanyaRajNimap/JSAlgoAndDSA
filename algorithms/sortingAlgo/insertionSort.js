@@ -26,13 +26,13 @@ element in the unsorted part. Else, shift larger elements in the sorted part tow
 
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
-    let numToInsert = arr[i];
+    let NumToInsrt = arr[i];
     let j = i - 1;
-    while (j >= 0 && arr[j] > numToInsert) {
+    while (j >= 0 && arr[j] > NumToInsrt) {
       arr[j + 1] = arr[j];
       j = j - 1;
     }
-    arr[j + 1] = numToInsert;
+    arr[j + 1] = NumToInsrt;
   }
 };
 
