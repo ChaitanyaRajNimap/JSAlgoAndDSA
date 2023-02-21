@@ -15,5 +15,6 @@ const quickSort = (arr) => {
   return [...quickSort(left), pivot, ...quickSort(right)];
 };
 
-const arr1 = [-200, 100, -63, 120, -9, 55, -74, 2, -90];
+const arr1 = [-6, 20, 8, -2, 4];
 console.log(quickSort(arr1));
+// console.log(arr1);
